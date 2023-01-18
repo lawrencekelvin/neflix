@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wgth@300;400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+body div:nth-child(1) h1{
+color: white;
+display: flex;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+div:nth-child(2){
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+div:nth-child(2) section{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    justify-content: space-between;
+    height: 240px;
+    overflow: hidden;
+}
+div:nth-child(2) section img{
+    width: 200px;
+    height: 200px;
+    transition: 0.5s;
+}
+div:nth-child(2) section img:hover{
+    width: 220px;
+    height: 210px;
+}
+div:nth-child(2) section span{
+    color: rgb(128, 128, 128);
+    font-size: 20px;
+    text-align: center;
+}
+div:nth-child(3) span{
+    color: antiquewhite;
+    font-size: 50px;
+    border: 0.5px solid whitesmoke ;
+}
